@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Наши услуги.">
+    <meta name="keywords" content="кредиты, ипотека, займы, финансовые услуги">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="file.css">
+     <!-- Встроенный стиль -->
+     <style>
+        body { font-family: sans-serif; }
+    </style>
+    <title>Услуги - Кредитный банк</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: maroon;">Кредитный Банк</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Вклады и кредиты</h2>
+        <p>Мы предлагаем широкий спектр кредитных продуктов.</p>
+    </main>
+
+    <form style="display: flex; flex-direction: column; align-items: flex-start;"> <!-- Флекс-контейнер -->
+    
+        <p> Настройте вклад
+            <select name="question">
+              <option value="1"> 3 мес</option>
+              <option value="2"> 6 мес</option>
+              <option value="3"> 12 мес</option>
+              <option value="4"> 24 мес</option>
+            </select>
+        </p>
+        <p>Выберите валюту </p> <input type="radio" name="ruble" value="dollar"> Рубли<br>
+        <input type="radio" name="ruble" value="dollar"> Доллары<br>
+            Введите сумму вклада
+            <input type="text" style="width: 300px;"><br> <!-- Поле для ввода -->
+            Введите номер телефона
+            <input type="text" style="width: 300px;"><br>
+            Согласие на обработку персональных данных
+            <input type="checkbox"><br>
+            <input type="submit" style="background-color: lightsalmon;"> <!-- Кнопка отправки формы -->
+        </form>
+
+        <form style="display: flex; flex-direction: column; align-items: flex-start;"> <!-- Флекс-контейнер -->
+    
+            <p> Настройте кредит
+                <select name="question">
+                  <option value="1"> 1 год</option>
+                  <option value="2"> 2 года</option>
+                  <option value="3"> 3 года</option>
+                  <option value="4"> 4 года</option>
+                </select>
+            </p>
+            <p>Выберите валюту </p> <input type="radio" name="ruble" value="dollar"> Рубли<br>
+            <input type="radio" name="ruble" value="dollar"> Доллары<br>
+                Введите сумму кредита
+                <input type="text" style="width: 300px;"><br> <!-- Поле для ввода -->
+                Введите номер телефона
+                <input type="text" style="width: 300px;"><br>
+                Согласие на обработку персональных данных
+                <input type="checkbox"><br>
+                Введите ФИО
+                <input type="text" style="width: 300px;"><br>
+                Введите дату рождения
+                <input type="text" style="width: 300px;"><br>
+                Введите электронную почту
+                <input type="text" style="width: 300px;"><br>
+                <input type="checkbox"><br>
+                <input type="submit" style="background-color: lightsalmon;"> <!-- Кнопка отправки формы -->
+            </form>
+    
+    <footer>
+        <p>© 2025 Кредитный банк. Все права защищены.</p>
+    </footer>
+</body>
+</html>
