@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+header {
+  background: linear-gradient(to right, #4CAF50, #8BC34A);
+  color: green;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #FFD700;
+}
+
+.hero {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-size: cover;
+}
+
+.image-effect {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.image-effect:hover {
+  transform: scale(1.05);
+}
+
+
+body {
+  background-color: #f0f0f0; 
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон */
+  backdrop-filter: blur(5px); /* Размытие фона */
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  transform: rotate(2deg); /* Поворот на 2 градуса */
+  padding: 20px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Прозрачный черный фон */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Стили для мобильных устройств (iPhone X, 375x812px и меньше) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  /* Другие стили для мобильных */
+}
+
+/* Стили для планшетов (iPad Pro, 1366x1024px) */
+@media (min-width: 481px) and (max-width: 1366px) {
+  body {
+    font-size: 18px;
+  }
+  /* Другие стили для планшетов */
+}
+
+/* Стили для компьютеров (1600px и больше) */
+@media (min-width: 1367px) {
+  body {
+    font-size: 20px;
+  }
+  /* Другие стили для компьютеров */
+}
